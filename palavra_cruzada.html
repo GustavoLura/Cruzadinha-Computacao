@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Debi-e-Loide/palavra_cruzada.css">
+    <title>Palavra Cruzada</title>
+</head>
+<body>
+    <!--Inicio do Header-->
+    <div class="header">
+          <div id="div_nomes">Gustavo Lura <br> Gustavo Volpe </div> <span id="span_titulo">PALAVRA CRUZADA</span>
+    </div>
+
+     <!--Inicio do Banner-->
+    <div class="banner">
+        <div id="div_img">
+            <img src="https://pa1.narvii.com/6711/e26f15f36b9d470cc92d1b45a11d59b15ada701b_hq.gif" style="display: none; height: 85vh; width: 100vw;" id="id_img">
+            <button id="id_voltar" onclick="voltar()" style="display: none;">VOLTAR</button>
+            <div id="div_msg_humilhando" style="display: none;"><span id="span_humi"> PO MEU PATRÃO AI NÃO NÉ KKKKKKKKKKKKKKKKKKKKK</span></div>  
+        </div>
+        <div id="container">
+            
+        <table>
+            <tr>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td><span id="num16">16</span> <span id="q_quadcore" style="display: none;">Q</span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+                <td class="nada"></span></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="u_quadcore" style="display: none;">U</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num3">3/</span><span id="num5">5</span> <span id="r_rom_registradores" style="display: none;">R</span></td>
+                <td><span id="o_rom" style="display: none;">O</span></td>
+                <td><span id="m_rom" style="display: none;">M</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td><span id="num9">9</span> <span id="d_dma" style="display: none;">D</span></td>
+                <td><span id="m_dma" style="display: none;">M</span></td>
+                <td><span id="a_dma_quadcore" style="display: none;">A</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="e_registradores" style="display: none;">E</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="d_quadcore" style="display: none;">D</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="g_registradores" style="display: none;">G</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="z-_quadcore" style="display: block;">-</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num6">6</span><span id="e_eprom" style="display: none;">E</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num13">13</span><span id="i_registradores_i5" style="display: none;">I</span></td>
+                <td><span id="i5_i5" style="display: none;">5</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="c_quadcore" style="display: none;">C</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="p_eprom" style="display: none;">P</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num10">10</span><span id="c_cs" style="display: none;">C</span></td>
+                <td><span id="s_registradores_cs" style="display: none;">S</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="o_quadcore" style="display: none;">O</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="r_eprom" style="display: none;">R</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="t_registradores" style="display: none;">T</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num12">12</span><span id="d_databus" style="display: none;">D</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="r_quadcore" style="display: none;">R</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="o_eprom" style="display: none;">O</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num4">4</span><span id="r_registradores_ram" style="display: none;">R</span></td>
+                <td><span id="a_ram" style="display: none;">A</span></td>
+                <td><span id="m_ram" style="display: none;">M</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="a_databus" style="display: none;">A</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td><span id="num8">8</span><span id="m_memoria" style="display: none;">M</span></td>
+                <td><span id="e_memoria_quadcore" style="display: none;">E</span></td>
+                <td><span id="mm_memoria" style="display: none;">M</span></td>
+                <td><span id="o_memoria" style="display: none;">Ó</span></td>
+                <td><span id="r_memoria" style="display: none;">R</span></td>
+                <td><span id="num14">14</span><span id="i_memoria_i7" style="display: none;">I</span></td>
+                <td><span id="a_memoria" style="display: none;">A</span></td>
+                <td><span id="z-_de" style="display: block;">-</span></td>
+                <td><span id="num15">15</span><span id="d_de_dualcore" style="display: none;">D</span></td>
+                <td><span id="e_de" style="display: none;">E</span></td>
+                <td><span id="z-_de" style="display: block;">-</span></td>
+                <td><span id="m_massa_eprom" style="display: none;">M</span></td>
+                <td><span id="a_massa" style="display: none;">A</span></td>
+                <td><span id="s_massa" style="display: none;">S</span></td>
+                <td><span id="ss_massa" style="display: none;">S</span></td>
+                <td><span id="a_massa_registradores" style="display: none;">A</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="t_databus" style="display: none;">T</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="i7_i7" style="display: none;">7</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="u_dualcore" style="display: none;">U</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="d_registradores" style="display: none;">D</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="aa_databus" style="display: none;">A</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="a_dualcore" style="display: none;">A</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="o_registradores" style="display: none;">O</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="z-_databus" style="display: block;">-</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num7">7</span><span id="f_flash" style="display: none;">F</span></td>
+                <td><span id="l_dualcore_flash" style="display: none;">L</span></td>
+                <td><span id="a_flash" style="display: none;">A</span></td>
+                <td><span id="s_flash" style="display: none;">S</span></td>
+                <td><span id="h_flash" style="display: none;">H</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="r_registradores" style="display: none;">R</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="b_databus" style="display: none;">B</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="z-_dualcore" style="display: block;">-</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num11">11</span><span id="a_adressbus" style="display: none;">A</span></td>
+                <td><span id="dd_adressbus" style="display: none;">D</span></td>
+                <td><span id="d_adressbus" style="display: none;">D</span></td>
+                <td><span id="r_adressbus" style="display: none;">R</span></td>
+                <td><span id="e_adressbus_registradores" style="display: none;">E</span></td>
+                <td><span id="s_adressbus" style="display: none;">S</span></td>
+                <td><span id="ss_adressbus" style="display: none;">S</span></td>
+                <td><span id="z-_adressbus" style="display: block;">-</span></td>
+                <td><span id="b_adressbus" style="display: none;">B</span></td>
+                <td><span id="u_databus_adressbus" style="display: none;">U</span></td>
+                <td><span id="sss_adressbus" style="display: none;">S</span></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="num1">1</span><span id="c_dualcore_cpu" style="display: none;">C</span></td>
+                <td><span id="p_cpu" style="display: none;">P</span></td>
+                <td><span id="num2">2</span><span id="u_cpu_ula" style="display: none;">U</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="s_registradores" style="display: none;">S</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="s_databus" style="display: none;">S</span></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="o_dualcore" style="display: none;">O</span></td>
+                <td class="nada"></td>
+                <td><span id="l_ula" style="display: none;">L</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="r_dualcore" style="display: none;">R</span></td>
+                <td class="nada"></td>
+                <td><span id="a_ula" style="display: none;">A</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+            <tr>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td><span id="e_dualcore" style="display: none;">E</span></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+                <td class="nada"></td>
+            </tr>
+        </table>
+        
+        
+        </div>
+        <div id="errado"></div>
+        <div id="div_ask">
+            <div id="span_quest1"> <b>Questão 1 :</b>
+Ele é o principal item de hardware do computador.É responsavel em processar todos os dados
+que são recebidas pelos dispositivos de entrada</div>
+<input type="text" id="quest1"> <br>
+            <button onclick="cpu()">Conferir</button>
+            
+            <div id="span_quest2"><b>Questão 2 :</b>
+É um dispositivo que realiza operações lógicas e aritméticas sobre números representados
+em circuitos lógicos. Tipicamente,recebe dois operandos como entrada, e uma entrada
+auxiliar de controle permite especificar qual operação deverá ser realizada.</div>
+<input type="text" id="quest2"> <br>
+            <button onclick="ula()">Conferir</button>
+            
+            <div id="span_quest3"><b>Questão 3 :</b>
+Circuitos digitais capazes de armazenar e deslocar informações binárias,
+e são tipicamente usados como um dispositivo de armazenamento temporário.</div>
+<input type="text" id="quest3"> <br>
+<button onclick="registradores()">Conferir</button>
+            
+            <div id="span_quest4"><b>Questão 4 :</b>
+É responsável pelo armazenamento de informações necessárias para a execução de aplicativos
+em uso e para o funcionamento do próprio sistema operacional, além de facilitar
+o trabalho do processador que pode acessar os dados essenciais mais rapidamente.</div>
+<input type="text" id="quest4"> <br>
+            <button onclick="ram()">Conferir</button>
+            
+            <div id="span_quest5"><b>Questão 5 :</b>
+Permite a gravação de dados uma única vez, não sendo possível apagar ou editar nenhuma
+informação, somente acessar a mesma.</div>
+<input type="text" id="quest5"> <br>
+            <button onclick="rom()">Conferir</button>
+            
+            <div id="span_quest6"><b>Questão 6 :</b>
+Memória não-volátil da Unidade de Comando Eletrônico (UCE) do sistema de injeção. Isso quer
+dizer que é capaz de armazenar as informações, para serem recuperadas e utilizadas 
+    posteriormente, mesmo depois de a alimentação ter sido interrompida.</div>
+<input type="text" id="quest6"> <br>
+            <button onclick="eprom()">Conferir</button>
+            
+            <div id="span_quest7"><b>Questão 7 :</b>
+É uma memória cujos chips são semelhantes ao da Memória RAM, que permite que diversos
+endereços sejam apagados ou escritos numa só operação.</div>
+<input type="text" id="quest7"> <br>
+            <button onclick="flash()">Conferir</button>
+            
+            <div id="span_quest8"><b>Questão 8 :</b>
+Tem como função armazenar grandes quantidades de informações. Os dados armazenados não são
+perdidos quando desligamos o equipamento, ao contrário da memória ram.</div>
+<input type="text" id="quest8"> <br>
+            <button onclick="memoria()">Conferir</button>
+            
+            <div id="span_quest9"><b>Questão 9 :</b>
+Recurso da placa mãe que capacita os periféricos a terem acesso direto à memória RAM, 
+sem sobrecarregarem o processador.</div>
+<input type="text" id="quest9"> <br>
+            <button onclick="dma()">Conferir</button>
+            
+            <div id="span_quest10"><b>Questão 10 :</b>
+Usada para selecionar um dos circuitos integrados dentre vários conectados ao mesmo barramento
+de computador, geralmente utilizando a lógica de três estados.</div>
+<input type="text" id="quest10"> <br>
+            <button onclick="cs()">Conferir</button>
+            
+            <div id="span_quest11"><b>Questão 11 :</b>
+Pelo barramento de endereços, a CPU obtém a localização deste dado dentro da memória. 
+Como precisa apenas acessar o dado, o processador indica pelo barramento de controle que esta
+é uma operação de leitura.</div>
+<input type="text" id="quest11"> <br>
+            <button onclick="adress()">Conferir</button>
+            
+            <div id="span_quest12"><b>Questão 12 :</b>
+            Dispositivo em que através do interior de um computador são transportados dados e informações
+            importantes.</div>
+            <input type="text" id="quest12"> <br>
+            <button onclick="data()">Conferir</button>
+            
+            <div id="span_quest13"><b>Questão 13 :</b>
+Série de processadores da Intel destinada a desktop x86-64 que aborda a utilização da microarquitetura Nehalem.
+            </div>
+            <input type="text" id="quest13"> <br>
+            <button onclick="i5()">Conferir</button>
+            
+            <div id="span_quest14"><b>Questão 14 :</b>
+Série de processadores da Intel, uma das mais avançadas da linha,pode fazer 4,7 GHz enquanto o mais avançado pode alcançar até 4,8 GHz de frequência.</div>
+            <input type="text" id="quest14"> <br>
+            <button onclick="i7()">Conferir</button>
+            
+            <div id="span_quest15"><b>Questão 15 :</b>
+                Processador que possui dois núcleos e trabalha com todos eles ao mesmo tempo:</div>
+            <input type="text" id="quest15"> <br>
+            <button onclick="dual()">Conferir</button>
+            
+            <div id="span_quest16"><b>Questão 16 :</b>
+                Processador que possui quatro núcleos e trabalha com todos eles ao mesmo tempo:
+            </div>
+            <input type="text" id="quest16"> <br>
+            <button onclick="quad()">Conferir</button>
+            
+        </div>
+</div>
+<script src="../Debi-e-Loide/palavra_cruzada.js"></script>
+
+</body>
+</html>
